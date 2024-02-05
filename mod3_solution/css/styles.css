@@ -34,29 +34,39 @@
 section h2 {
 	font-family: 'Anton', sans-serif;
 	font-size: 2em;
-	text-align: center;
 	margin-bottom: 40px;
 }
-#main-content {
-	padding: 0 10px 0 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	background-color: #c2c8d1;
+.menu-list {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
-#content {
+.menu {
 	position: relative;
-	padding: 0;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-}
-#content:nth-child(1) {
-	border-top: 0px;
-}
-#content:nth-child(3) {
-	border-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid black;
+	background-color: #c9c8af;
 }
 .title h3 {
 	font-family: 'Caveat', cursive;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2em;
+}
+.back-link {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.back-link a {
+	font-size: 1.4em;
+	color: #a11b43;
+}
+.back-link a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.6em;
+	transition: 0.5s;
 }
